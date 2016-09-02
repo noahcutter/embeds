@@ -5,7 +5,7 @@ Core Publisher homepages currently lack the ability to easily embed mp3s and ifr
 
 ## Set Up
 
-The first step is to create an html file that contains the iframe. This repository contains the code for iframes that are currently embedded onto [digital.vpr.net](http://digital.vpr.net). For basic iframe embeds, follow `template.html`. For a SoundCloud embed, see `wintry-mix.html`. For DocumentCloud (with use of the `pym.js sendHeight()` method) see `dps-documents.html`. For jplayer, follow `newscast.html`. The CSS at the top of `newscast.html` was styled by Jim Hill to match Core Publisher's audio play buttons. Major points to Jim for that.
+The first step is to create an html file that contains the iframe. This repository contains the code for iframes that are currently embedded onto [digital.vpr.net](http://digital.vpr.net). For basic iframe embeds, follow `template.html`. For a SoundCloud embed, see `wintry-mix.html`. For jplayer, follow `newscast.html`. The CSS at the top of `newscast.html` was styled by Jim Hill to match Core Publisher's audio play buttons. Major points to Jim for that.
 
 For pym.js, follow the instructions [here](http://blog.apps.npr.org/pym.js/). With Core Publisher, be sure to use the pym.js loader version.
 
