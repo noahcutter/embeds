@@ -1,0 +1,27 @@
+body {
+  font-family: 'Lato', sans-serif;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #509E2F;
+  padding: 10px;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    padding: 12px 18px;
+    margin: 1px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 30%;
+}
+
+.button:hover {
+  background-color: #e7e7e7;
+}
