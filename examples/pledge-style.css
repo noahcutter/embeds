@@ -10,18 +10,31 @@ h1 {
   font-weight: 900;
 }
 
-.button {
-    background-color: white;
-    color: black;
-    border: 2px solid #e7e7e7;
-    padding: 12px 18px;
-    margin: 1px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    width: 30%;
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
 }
 
-.button:hover {
+.flex-item {
+  color: black;
+  border: 2px solid #e7e7e7;
+  padding: 10px 10px;
+  background-color: white;
+  width: 250px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
+.flex-item:hover {
   background-color: #e7e7e7;
 }
