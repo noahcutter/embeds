@@ -12,7 +12,7 @@ For pym.js, follow the instructions [here](http://blog.apps.npr.org/pym.js/). Wi
 
 ## Deploy
 
-Push the html file up to Amazon S3. At VPR, we created a folder within S3 called `embeds` and push everything there. For example, if we were to push the `template.html` file from this repository up to VPR's S3 account, I should be able to head to `www.vpr.net/apps/embed/template.html` and see my iframe live.
+Push the html file up to Amazon S3. At VPR, we created a folder within S3 called `embed` and push everything there. For example, if we were to push the `template.html` file from this repository up to VPR's S3 account, I should be able to head to `www.vpr.net/apps/embed/template.html` and see my iframe live.
 
 
 ## Embed into Core Publisher
