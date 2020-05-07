@@ -1,17 +1,25 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-
-<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
-
-<head>
-</head>
-
-<body>
-
-  <!-- insert iframe embed code here -->
-
-  <script>
-    var pymChild = new pym.Child();
-  </script>
-</body>
+	<head>
+		<title>Pym.js Responsive Embed Example - Child Page</title>
+		
+		<meta charset='UTF-8'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!--PYM.js-->
+		<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+		
+		
+	</head>
+	<body>
+		
+		<!-- Your cool and innovative responsive embed code here! -->
+		
+	    <script>
+			// Mandatory to initialize Pym
+			var pymChild = new pym.Child();
+			// This fixes a lot of height issues when scaling. Check the official documentation for more: http://blog.apps.npr.org/pym.js/
+			pym.Child({ polling: 500 });
+		</script>
+	</body>
 </html>
